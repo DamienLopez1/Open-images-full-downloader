@@ -23,10 +23,7 @@ python download.py --images={PATH_TO_IMAGE_FILE}.csv --annots={PATH_TO_ANNOTATIO
 
 # example
 
+```python download.py --images=./train-images-boxable.csv --annots=./train-annotations-bbox.csv --objects football --dir=./trainimages --labelmap=./class-descriptions-boxable.csv
 ```
-python download.py --images=./train-images-boxable.csv --annots=./train-annotations-bbox.csv --objects football --dir=./trainimages --labelmap=./class-descriptions-boxable.csv
-```
-
 #This code was modified from harshilpatel312
-
 Additions include downloading the images straight to disk.
