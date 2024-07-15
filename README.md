@@ -19,11 +19,11 @@ wget https://requestor-proxy.figure-eight.com/figure_eight_datasets/open-images/
 ```shell
 cd Download/
 
-python dopen-images-full-download-to-disk.py --images={PATH_TO_IMAGE_FILE}.csv --annots={PATH_TO_ANNOTATION_FILE}.csv --objects {SPACE_SEPARATE_OBJECT_NAMES} --dir={OUTPUT_DIR} --labelmap={PATH_TO_LABELMAP}.csv
+python download.py --images={PATH_TO_IMAGE_FILE}.csv --annots={PATH_TO_ANNOTATION_FILE}.csv --objects {SPACE_SEPARATE_OBJECT_NAMES} --dir={OUTPUT_DIR} --labelmap={PATH_TO_LABELMAP}.csv
 
 # example
 
-```python open-images-full-download-to-disk.py --images=./train-images-boxable.csv --annots=./train-annotations-bbox.csv --objects football --dir=./trainimages --labelmap=./class-descriptions-boxable.csv
+```python download.py --images=./train-images-boxable.csv --annots=./train-annotations-bbox.csv --objects football --dir=./trainimages --labelmap=./class-descriptions-boxable.csv
 ```
 4. This code was modified from harshilpatel312. 
 Additions include downloading the images straight to disk.
